@@ -1,0 +1,30 @@
+/* #woo_skipcash_button {
+    width: 100%;
+    background: #007DFA;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}*/
+#woo_skipcash_button a:active,
+#woo_skipcash_button a:focus,
+#woo_skipcash_button a:target {
+    background: #007DFA !important;
+}
+
+#woo_skipcash_button a {
+    text-decoration: none;
+}
+
+#woo_skipcash_button a * {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    text-decoration: none !important;
+}
+
+#woo_skipcash_button img {
+    display: inline-block;
+    width: auto !important;
+    max-height: 25px;
+    margin: 0 5px 0 15px;
+}
